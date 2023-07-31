@@ -12,7 +12,7 @@ const App: React.FC = () => {
     if (todo) setTodos([...todos, { id: Date.now(), todo, isDone: false }]);
     setTodo("");
   };
-  console.log(todos);
+
   return (
     <div className="App">
       <div className="heading">Taskify</div>
